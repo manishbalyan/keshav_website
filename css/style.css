@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@import url("reset.css");
+@import url("responsive.css");
+@import url("themify-icons.css");
+
+/*============================================================================================
+==============================================================================================
+
+CONTENTS :
+    *   1. General
+        2. Top Section
+        3. Navigation
+        4. Middle Section
+
+
+
+
+==============================================================================================
+=============================================================================================*/
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            1. General 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+#main-container-scroller{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+#loader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #5eb6de;
+}
+.no-space{
+    margin: auto 0;
+    padding-left: 0 ;
+    padding-right: 0;
+}
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            2. Top Section
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+
+.top{
+    background-image: url("../images/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+
+
+
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            3. Navigation
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+
+
+.navigation{
+    border-bottom: 2px solid rgba(255,255,255, 0.2);
+}
+.mainlogo{
+    margin: 15px 0;
+    height: 60px;
+}
+
+.mainnav li{
+    display: inline-block;
+}
+
+.mainnav li a{
+    color: rgba(255,255,255,1);
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 25px 10px 0 10px;
+    font-weight: 800;
+    display: block;
+    padding: 20px 0 32px 0;
+    border-bottom: 1px solid rgba(0,0,0,0);
+    transition: all 0.8s ease;
+    text-transform: uppercase;
+}
+.mainnav li a:hover{
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+    color:#fff;
+}
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            4. Middel Section
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+.middle{
+    background-color: #fff;
+    height:80vh;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.item a{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    margin: 20px;
+    color: #fff;
+    border: 2px solid;
+    padding: 10px;
+}
+.item p{
+    position: absolute;
+    top: 27%;
+    left: 4%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.item h1{
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    color: #fff;
+    font-size: 90px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
