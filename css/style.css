@@ -3,6 +3,8 @@
 @import url("reset.css");
 @import url("responsive.css");
 @import url("themify-icons.css");
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+
 
 /*============================================================================================
 ==============================================================================================
@@ -12,6 +14,11 @@ CONTENTS :
         2. Top Section
         3. Navigation
         4. Middle Section
+        5. New Arrival
+        6. Accessories
+        7. Collections
+        8. Footer
+        9. Contact Form
 
 
 
@@ -49,7 +56,14 @@ body{
     padding-left: 0 ;
     padding-right: 0;
 }
-
+.row-space{
+    margin-bottom: 30px;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.margin-bottom{
+    margin-bottom: 10px;
+}
 
 /**********************************************************************************************
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -95,7 +109,7 @@ body{
     color: rgba(255,255,255,1);
     font-size: 12px;
     letter-spacing: 2px;
-    margin: 25px 10px 0 10px;
+    margin: 25px 8px 0 10px;
     font-weight: 800;
     display: block;
     padding: 20px 0 32px 0;
@@ -108,6 +122,9 @@ body{
     text-decoration: none;
     color:#fff;
 }
+.mainnav .icon{
+    display: none;
+}
 
 /**********************************************************************************************
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -117,7 +134,6 @@ body{
 
 .middle{
     background-color: #fff;
-    height:80vh;
 }
 
 #owl-demo .item img{
@@ -153,4 +169,233 @@ body{
     font-weight: bold;
     text-transform: uppercase;
 
+}
+
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            5. New Arrival
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+#new-arrival .new-arrival-heading h1{
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #838485;
+    letter-spacing: 1px;
+
+}
+#new-arrival .new-arrival-heading .left-line{
+    height: 3px;
+    width: 60px;
+    background-color: #838485;
+    display: inline-block;
+    position: absolute;
+    left: 37%;
+    margin-top: 14px;
+}
+#new-arrival .new-arrival-heading .right-line{
+    height: 3px;
+    width: 60px;
+    background-color: #838485;
+    display: inline-block;
+    position: absolute;
+    left: 58%;
+    margin-top: -44px;
+}
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            6. Accessories
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+#accessories .accessories-heading h1{
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #838485;
+    letter-spacing: 1px;
+
+}
+#accessories .accessories-heading .left-line{
+    height: 3px;
+    width: 60px;
+    background-color: #838485;
+    display: inline-block;
+    position: absolute;
+    left: 37%;
+    margin-top: 14px;
+}
+#accessories .accessories-heading .right-line{
+    height: 3px;
+    width: 60px;
+    background-color: #838485;
+    display: inline-block;
+    position: absolute;
+    left: 58%;
+    margin-top: -44px;
+}
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            7. Collections
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+#collection .collection-heading h1{
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #838485;
+    letter-spacing: 1px;
+
+}
+#collection .collection-heading .left-line{
+    height: 3px;
+    width: 60px;
+    background-color: #838485;
+    display: inline-block;
+    position: absolute;
+    left: 37%;
+    margin-top: 14px;
+}
+#collection .collection-heading .right-line{
+    height: 3px;
+    width: 60px;
+    background-color: #838485;
+    display: inline-block;
+    position: absolute;
+    left: 58%;
+    margin-top: -44px;
+}
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            8. Footer
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+.footer{
+    background-color: #323232;
+    padding: 50px 0;
+}
+.footer a{
+    display: block;
+    color: #ccc;
+    margin: 27px 0 0 0;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+}
+.footer h2{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(159, 159, 159);
+    margin-top: 20px;
+}
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            9. Contact Form
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+#contact-form{
+    margin-bottom: 20px;
+}
+#contact-form .contact-heading{
+    text-align: center;
+    display: block;
+    margin: 30px 0;
+    font-weight: 600;
+    color: #828282;
+}
+
+#contact{
+    padding:10px 0 10px;
+}
+
+.contact-text{
+    margin:45px auto;
+}
+
+
+/* Input Styles */
+
+.form{
+    width: 100%;
+    padding: 15px;
+    background:#f8f8f8;
+    border:1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom:25px;
+    color:#727272 !important;
+    font-size:13px;
+}
+
+.form:hover{
+    border:1px solid #8BC3A3;
+}
+
+.form:focus{
+    color: white;
+    outline: none;
+    border:1px solid #8BC3A3;
+}
+
+.textarea{
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+/* Generic Button Styles */
+
+.button:hover{
+    background:#8BC3A3;
+    color:white;
+}
+
+/* Send Button Styles */
+
+.form-btn{
+    width:180px;
+    display: block;
+    height: auto;
+    padding:15px;
+    color:#fff;
+    background:#8BC3A3;
+    border:none;
+    border-radius:3px;
+    outline: none;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    margin:auto;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+}
+
+.form-btn:hover{
+    background:#111;
+    color: white;
+    border:none;
+}
+
+.form-btn:active{
+    opacity: 0.9;
+}
+center{
+    margin-top:330px;
+}
+input {
+    position: relative;
+    z-index: 9999;
 }
