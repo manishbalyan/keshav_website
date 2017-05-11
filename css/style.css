@@ -285,7 +285,7 @@ body{
 
 .footer{
     background-color: #323232;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 .footer a{
     display: block;
@@ -308,7 +308,8 @@ body{
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ***********************************************************************************************/
 #contact-form{
-    margin-bottom: 20px;
+    margin-bottom: 125px;
+    margin-top: 20px;
 }
 #contact-form .contact-heading{
     text-align: center;
@@ -350,7 +351,7 @@ body{
 }
 
 .textarea{
-    height: 200px;
+    height: 190px;
     max-height: 200px;
     max-width: 100%;
 }
