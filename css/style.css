@@ -116,6 +116,7 @@ body{
     border-bottom: 1px solid rgba(0,0,0,0);
     transition: all 0.8s ease;
     text-transform: uppercase;
+    height: 40px;
 }
 .mainnav li a:hover{
     border-bottom: 1px solid #fff;
@@ -286,7 +287,10 @@ body{
 .footer{
     background-color: #323232;
     padding: 30px 0;
+    margin-top: 20px;
+
 }
+
 .footer a{
     display: block;
     color: #ccc;
@@ -301,6 +305,12 @@ body{
     color: rgb(159, 159, 159);
     margin-top: 20px;
 }
+.margin-top{
+    margin-top: 170px;
+}
+/*.footer text-center{*/
+    /*text-align: center;*/
+/*}*/
 
 /**********************************************************************************************
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -308,8 +318,8 @@ body{
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ***********************************************************************************************/
 #contact-form{
-    margin-bottom: 125px;
     margin-top: 20px;
+    min-height: 72vh;
 }
 #contact-form .contact-heading{
     text-align: center;
